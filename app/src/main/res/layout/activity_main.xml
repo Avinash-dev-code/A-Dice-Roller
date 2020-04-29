@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginTop="128dp"
         android:gravity="center"
+        android:scaleType="centerCrop"
         android:textColor="#0C0000"
         android:textSize="96sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,10 +36,11 @@
 
     <Button
         android:id="@+id/b1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="308dp"
+        android:layout_height="123dp"
         android:layout_marginBottom="56dp"
-        android:text="Button"
+        android:text="Roll Dice"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
